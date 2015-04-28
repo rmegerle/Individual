@@ -1,6 +1,6 @@
 <?php 
 
-// filename: readProd.php, Rick Megerle, cis355, 
+// filename: readService.php, Rick Megerle, cis355, 
 // displays the selected services from the database
 
 	session_start();

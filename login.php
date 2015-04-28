@@ -21,7 +21,7 @@
 		    $_SESSION["id"] = $sess_id;
 			// If the user came from the login page, direct them to the landing page
 			if ($_SERVER['HTTP_REFERER'] == "http://csis.svsu.edu/~rtmegerl/ind/Vehicles.php" 
-			    || $_SERVER['HTTP_REFERER'] == "http://csis.svsu.edu/~rtmegerl/ind/login.php" " )
+			    || $_SERVER['HTTP_REFERER'] == "http://csis.svsu.edu/~rtmegerl/ind/login.php" )
 			{
 				// Relocate to landing page
 				header('Location: index.php');
